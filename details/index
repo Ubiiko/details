@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/font/flaticon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- =================Body Started==================== -->
+
+<body>
+    <!-- =================================********================================= -->
+    <div id="show_menuitems" class="my-menu">
+        <div class="menu-box">
+            <span>
+                <i onclick="hide_menu()" class="flaticon-cancel"></i>
+            </span>
+            <ul>
+                <li><a onclick="hide_menu()" href="#home">Introduction</a></li>
+                <li><a onclick="hide_menu()" href="#about">Qui suis-je</a></li>
+                <li><a onclick="hide_menu()" href="#resume">Experience</a></li>
+                <li><a onclick="hide_menu()" href="#portfolio">Centre d'intérêts</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- =================================********================================= -->
+    <section id="home">
+        <header>
+            <div class="container">
+                <div class="main-nav">
+                    <div class="logo">
+                        <h2>Rémi tran sammarcelli</h2>
+                    </div>
+                    <div onclick="show_menu()" class="my-toogle">
+                        <span><i class="flaticon-menu"></i></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="my-wrapper">
+                    <div class="inter">
+                        <h6>Introduction</h6>
+                    </div>
+                    <div class="welcome-box">
+                        <h3><span></span></h3>
+                    </div>
+                    <div class="name-box">
+                        <h1>Bonjour je m'appelle <span>Rémi</span></h1>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================********================================= -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="left-wrapper">
+                        <div class="content">
+                            <div class="title">
+                                <h4>A propos de moi</h4>
+                                <h2>Mon <span>esprit travailleur </span>
+                                    me permet de <span>surmonter</span> n'importe quelle épreuve</h2>
+                                <p>Après deux ans en ingénierie informatique axée sur l'infrastructure réseau, j'ai
+                                    approfondi mes connaissances en configuration et gestion de réseaux, maîtrisé les
+                                    protocoles clés et acquis des compétences en sécurité réseau. Prêt à architecturer
+                                    et sécuriser des infrastructures complexes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-wrapper">
+                        <div class="content">
+                            <div class="title">
+                                <img src="DSC_0393.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inter">
+                        <h6>Qui suis-je</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================********================================= -->
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="my-wrapper">
+                    <div class="left-wrapper">
+                        <div class="content">
+                            <div class="head">
+                                <h2>projets</h2>
+                            </div>
+                            <div class="list-inner">
+                                <ol>
+                                    <li>
+                                        <h4>Conception développement solution web</h4>
+
+                                        <p>J'utilise des langages tels que HTML, CSS, et JavaScript. Grâce à ces outils,
+                                            j'ai développé des compétences en design web, en programmation front-end et
+                                            back-end, et j'ai appris à créer des interfaces web interactives et
+                                            adaptatives.</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Développement appli objet en Python</h4>
+
+                                        <p>En me servant de Python, j'ai maîtrisé la programmation orientée objet. J'ai
+                                            créé des applications robustes, perfectionné mes techniques de débogage, et
+                                            approfondi ma connaissance des structures de données.</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Installation infrastructure système réseau</h4>
+
+                                        <p>Avec des outils tels que Virtual Box et Windows Server, j'ai configuré des
+                                            serveurs, géré des réseaux et assuré la sécurité des systèmes. J'ai acquis
+                                            des compétences essentielles en administration réseau, déploiement et
+                                            surveillance.</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Concevoir et exploiter une base de données</h4>
+
+                                        <p>En utilisant SQL et des systèmes comme MySQL, j'ai appris à concevoir et à
+                                            gérer des bases de données. J'ai développé des compétences en modélisation,
+                                            écriture de requêtes et optimisation de performances.</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Conception et mise en place de la communication digitale </h4>
+
+                                        <p>En exploitant des outils comme Adobe Suite et diverses plateformes de gestion
+                                            de contenu, j'ai conçu des contenus digitaux captivants. J'ai ainsi
+                                            développé des compétences en design graphique, stratégie digitale et
+                                            marketing en ligne.</p>
+                                    </li>
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-wrapper">
+                        <div class="content">
+                            <div class="head">
+                                <h2>Hard Skills</h2>
+                            </div>
+                            <div class="list-inner">
+                                <ol>
+                                    <li>
+                                        <h4>Langages de Programmation et Scripting :</h4>
+                                        <p>HTML<br>
+                                            CSS<br>
+                                            PHP<br>
+                                            Python</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Bases de Données :</h4>
+                                        <p>MYSQL<br>
+                                            MYSQL Server<br>
+                                        </p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Systèmes d'Exploitation :</h4>
+                                        <p>Windows<br>
+                                            Windows Server<br>
+                                            Linux (Ubuntu)(Linux)(Debian)(Ubuntu)</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Virtualisation et Conteneurisation :</h4>
+                                        <p>Virtual Box<br>
+                                            Proxmox</p>
+                                    </li>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>UI/UX Designers :</h4>
+                                        <p>Tiled<br>
+                                            Photoshop<br></p>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inter">
+                        <h6>Experience</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================********================================= -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="my-wrapper">
+                    <div class="wrapper-box">
+                        <div class="content">
+                            <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="others-template" data-toggle="tab" href="#others" role="tab"
+                                        aria-controls="others" aria-selected="true">Centre d'intérêts</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade " id="others" role="tabpanel"
+                                    aria-labelledby="others-template">
+                                    <div class="content-list">
+                                        <ol>
+                                            <li>
+                                                <div class="_ok-vd_zs">
+                                                    <figure>
+                                                        <img src="assets/images/abt/pic1.png">
+                                                        <div class="inner-content">
+                                                            <a>Musculation</a>
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="_ok-vd_zs">
+                                                    <figure>
+                                                        <img src="assets/images/abt/pic2.png">
+                                                        <div class="inner-content">
+                                                            <a>Finance</a>
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="_ok-vd_zs">
+                                                    <figure>
+                                                        <img src="assets/images/abt/pic3.png">
+                                                        <div class="inner-content">
+                                                            <a>Hardware</a>
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="_ok-vd_zs">
+                                                    <figure>
+                                                        <img src="assets/images/abt/pic4.png">
+                                                        <div class="inner-content">
+                                                            <a>Jeu Vidéo</a>
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inter">
+                        <h6>Passion</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================********================================= -->
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading">
+                        <h2>Contactez-moi</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="121" type="text" required="name"
+                                        placeholder="Prénom">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="122" type="text" required="email"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="123" type="text" required="subject"
+                                        placeholder="Objet">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="" cals="40" rows="10" name="124" type="text"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="send">
+                                    <a href="#">Envoyer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="inter">
+                        <h6>Contact</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- =================================********================================= -->
+
+    <!-- =================================********================================= -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+<!-- =================Body End==================== -->
+
+</html>
